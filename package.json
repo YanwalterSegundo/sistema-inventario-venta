@@ -1,0 +1,15 @@
+{
+  "name": "sistema-inventario-ventas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sistema fullstack para gestion de inventario, clientes, ventas y reportes.",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:api": "pnpm --dir apps/api dev",
+    "dev:web": "pnpm --dir apps/web dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "packageManager": "pnpm@9.15.4"
+}
